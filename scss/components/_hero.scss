@@ -1,0 +1,33 @@
+.hero {
+    background: url('../../assets/photos/main/unsplash_gioH4gHo0-g.png');
+    background-blend-mode: multiply, normal;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @include mobile() {
+        background-position: right -330px center;
+    }
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+
+        @include mobile() {
+            justify-content: center;
+        }
+    }
+
+    &__title {
+        max-width: 475px;
+        @include heading;
+
+        letter-spacing: 1.12px;
+
+        @include mobile() {
+            font-size: 32px;
+            max-width: 311px;
+            text-align: center;
+        }
+    }
+}

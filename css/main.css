@@ -1,0 +1,553 @@
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-Bold.woff2") format("woff2"), url("../assets/fonts/WorkSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-BlackItalic.woff2") format("woff2"), url("../assets/fonts/WorkSans-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-Black.woff2") format("woff2"), url("../assets/fonts/WorkSans-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-BoldItalic.woff2") format("woff2"), url("../assets/fonts/WorkSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-ExtraBold.woff2") format("woff2"), url("../assets/fonts/WorkSans-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-ExtraBoldItalic.woff2") format("woff2"), url("../assets/fonts/WorkSans-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-ExtraLight.woff2") format("woff2"), url("../assets/fonts/WorkSans-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-Italic.woff2") format("woff2"), url("../assets/fonts/WorkSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-ExtraLightItalic.woff2") format("woff2"), url("../assets/fonts/WorkSans-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-LightItalic.woff2") format("woff2"), url("../assets/fonts/WorkSans-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-Light.woff2") format("woff2"), url("../assets/fonts/WorkSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-Medium.woff2") format("woff2"), url("../assets/fonts/WorkSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-MediumItalic.woff2") format("woff2"), url("../assets/fonts/WorkSans-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-Regular.woff2") format("woff2"), url("../assets/fonts/WorkSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-SemiBold.woff2") format("woff2"), url("../assets/fonts/WorkSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-SemiBoldItalic.woff2") format("woff2"), url("../assets/fonts/WorkSans-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-Thin.woff2") format("woff2"), url("../assets/fonts/WorkSans-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-ThinItalic.woff2") format("woff2"), url("../assets/fonts/WorkSans-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-Italic.woff2") format("woff2"), url("../assets/fonts/WorkSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-Regular.woff2") format("woff2"), url("../assets/fonts/WorkSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1262px;
+  margin: 0 auto;
+  padding-inline: 20px;
+}
+
+.navbar {
+  padding-top: 56px;
+  position: absolute;
+  width: 100%;
+  z-index: 10000;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar {
+    padding-top: 63px;
+  }
+}
+.navbar__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar .nav__logo {
+  z-index: 1000;
+}
+@media screen and (max-width: 767px) {
+  .navbar .nav__logo img {
+    width: 153px;
+    height: 24px;
+  }
+}
+.navbar .nav__list {
+  display: flex;
+  gap: 24px;
+}
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+  .navbar .nav__list {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 50px;
+    background-color: #5f5c5c;
+    transition: all 0.4s ease;
+  }
+}
+@media screen and (max-width: 767px) {
+  .navbar .nav__list {
+    width: 100%;
+  }
+}
+.navbar .nav__list-item {
+  padding: 16px;
+}
+.navbar .nav__list-item a {
+  color: #FCFCFC;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 130%;
+}
+.navbar .nav__list .items_icon {
+  display: none;
+}
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+  .navbar .nav__list .items_icon {
+    display: block;
+  }
+  .navbar .nav__list .items_icon .navbar__items {
+    display: block;
+  }
+}
+.navbar .nav .nav__active {
+  left: 0;
+}
+.navbar__items {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+  .navbar__items {
+    display: none;
+  }
+}
+.navbar__items img {
+  width: 24px;
+  height: 24px;
+  margin: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.navbar .menu__btn {
+  border: none;
+  background-color: transparent;
+  z-index: 1000;
+  display: none;
+}
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+  .navbar .menu__btn {
+    display: block;
+  }
+}
+
+.hero {
+  background: url("../../assets/photos/main/unsplash_gioH4gHo0-g.png");
+  background-blend-mode: multiply, normal;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media screen and (max-width: 767px) {
+  .hero {
+    background-position: right -330px center;
+  }
+}
+.hero__wrapper {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+@media screen and (max-width: 767px) {
+  .hero__wrapper {
+    justify-content: center;
+  }
+}
+.hero__title {
+  max-width: 475px;
+  color: #FFF;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 1.12px;
+}
+@media screen and (max-width: 767px) {
+  .hero__title {
+    font-size: 32px;
+    max-width: 311px;
+    text-align: center;
+  }
+}
+
+.revieve {
+  margin-top: -150px;
+  margin-bottom: 88px;
+}
+@media screen and (max-width: 767px) {
+  .revieve {
+    margin-top: -80px;
+  }
+}
+.revieve__wrapper {
+  width: 100%;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 32px;
+  overflow: hidden;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  .revieve__wrapper {
+    height: 168px;
+  }
+}
+.revieve__wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.revieve__content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.revieve__content h2 {
+  color: #FFF;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 120%;
+}
+@media screen and (max-width: 767px) {
+  .revieve__content h2 {
+    font-size: 21px;
+  }
+}
+.revieve__content p {
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 149%;
+  max-width: 616px;
+}
+@media screen and (max-width: 767px) {
+  .revieve__content p {
+    font-size: 10px;
+    max-width: 226px;
+  }
+}
+.revieve__content a {
+  padding: 8px 16px;
+  border-radius: 32px;
+  background: #FF753A;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 130%;
+  margin-top: 16px;
+}
+
+.line {
+  width: 259.71px;
+  height: 3px;
+  background: #AB0433;
+}
+@media screen and (max-width: 767px) {
+  .line {
+    width: 80px;
+  }
+}
+
+.finds {
+  padding: 88px;
+  background: #ECECEC;
+}
+@media screen and (max-width: 767px) {
+  .finds {
+    padding: 56px 24px;
+  }
+}
+.finds .products__wrapper .line {
+  width: 80px;
+}
+.finds__list-item {
+  background: #fff;
+}
+.finds__list-item .finds__image {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.products__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.products__wrapper > h2 {
+  color: #505050;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+}
+@media screen and (max-width: 767px) {
+  .products__wrapper > h2 {
+    width: 100%;
+    font-size: 24px;
+  }
+}
+.products__list {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+  .products__list {
+    flex-wrap: wrap;
+  }
+}
+.products__list .none {
+  display: none;
+}
+@media screen and (min-width: 0) and (max-width: 1024px) {
+  .products__list .none {
+    display: block;
+  }
+}
+.products__list-item {
+  max-width: 400px;
+}
+.products__list-item .product__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 10px 0px 0px;
+  background-image: radial-gradient(138.81% 138.29% at 1.22% 1.08%, #FBFBFB 0%, #D3D3D3 100%);
+}
+.products__list-item .product__content {
+  padding: 16px 24px 24px;
+}
+.products__list-item .product__content .product__item-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #252525;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 130%;
+}
+.products__list-item .product__content p {
+  color: #767676;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+}
+.products__list-item .product__content > p:last-child {
+  color: #505050;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  max-width: 110px;
+  border-radius: 20px;
+  border: 1px solid #EAEAEA;
+  margin-top: 25px;
+}
+.products__list-item .product__content > p:last-child > span {
+  color: #505050;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.footer {
+  padding: 70px 64px;
+  background: #505050;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__links {
+  display: flex;
+  gap: 48px;
+}
+.footer__links .footer__account {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer__links .footer__account .acc__item:first-child hr {
+  width: 58px;
+  height: 3px;
+  background-color: #fff;
+}
+.footer__links .footer__account .acc__item:nth-child(2) {
+  color: var(--White, #FFF);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+.footer__links .footer__account .acc__item:not(:first-child, :nth-child(2)) a {
+  color: var(--White, #FFF);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  /* 18.2px */
+}
+.footer .social__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 27px;
+}
+.footer .social__link .social__list {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,136 @@
+.line {
+    width: 259.71px;
+    height: 3px;
+    background: #AB0433;
+
+    @include mobile() {
+        width: 80px;
+    }
+}
+
+.finds {
+    padding: 88px;
+    background: #ECECEC;
+
+    @include mobile() {
+        padding: 56px 24px;
+    }
+
+    .products__wrapper {
+        .line {
+            width: 80px;
+        }
+    }
+
+    &__list {
+        &-item {
+            background: #fff;
+
+            .finds__image {
+                background: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px 10px 0px 0px;
+            }
+        }
+    }
+}
+
+.products {
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+
+        &>h2 {
+            color: #505050;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 120%;
+
+            @include mobile() {
+                width: 100%;
+                font-size: 24px;
+            }
+        }
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+
+        @include media(0px, 1024px) {
+            flex-wrap: wrap;
+        }
+
+        & .none {
+            display: none;
+
+            @include media(0, 1024px) {
+                display: block;
+            }
+        }
+
+        &-item {
+            max-width: 400px;
+
+            .product__image {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px 10px 0px 0px;
+                background-image: radial-gradient(138.81% 138.29% at 1.22% 1.08%, #FBFBFB 0%, #D3D3D3 100%);
+            }
+
+            .product__content {
+                padding: 16px 24px 24px;
+
+                .product__item-title {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    color: #252525;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 130%;
+                }
+
+                & p {
+                    color: #767676;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 130%;
+                }
+
+                &>p:last-child {
+                    color: #505050;
+                    font-family: Montserrat;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 150%;
+
+                    max-width: 110px;
+                    border-radius: 20px;
+                    border: 1px solid #EAEAEA;
+                    margin-top: 25px;
+
+                    &>span {
+                        color: #505050;
+                        font-size: 12px;
+                        font-weight: 700;
+                        line-height: 150%;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
