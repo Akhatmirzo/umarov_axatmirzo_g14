@@ -511,9 +511,20 @@ a {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 767px) {
+  .footer__wrapper {
+    flex-wrap: wrap-reverse;
+    gap: 50px;
+  }
+}
 .footer__links {
   display: flex;
   gap: 48px;
+}
+@media screen and (max-width: 767px) {
+  .footer__links {
+    flex-wrap: wrap;
+  }
 }
 .footer__links .footer__account {
   display: flex;

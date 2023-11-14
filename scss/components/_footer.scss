@@ -5,11 +5,19 @@
     &__wrapper {
         display: flex;
         justify-content: space-between;
+        @include mobile() {
+            flex-wrap: wrap-reverse;
+            gap: 50px;
+        }
     }
 
     &__links {
         display: flex;
         gap: 48px;
+
+        @include mobile() {
+            flex-wrap: wrap;
+        }
         .footer__account {
             display: flex;
             flex-direction: column;
@@ -46,6 +54,7 @@
         flex-direction: column;
         justify-content: flex-end;
         gap: 27px;
+
         .social__list {
             display: flex;
             align-items: center;
